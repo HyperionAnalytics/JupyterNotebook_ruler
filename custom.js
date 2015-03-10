@@ -2,19 +2,19 @@
 
 $([IPython.events]).on('command_mode.Cell', function (event, data) {
 
-      function clearRulers(cm) {
-        for (var i = cm.display.lineSpace.childNodes.length - 1; i >= 0; i--) {
-          var node = cm.display.lineSpace.childNodes[i];
-          if (/(^|\s)CodeMirror-ruler($|\s)/.test(node.className))
-            node.parentNode.removeChild(node);
-        }
+    function clearRulers(cm) {
+      for (var i = cm.display.lineSpace.childNodes.length - 1; i >= 0; i--) {
+        var node = cm.display.lineSpace.childNodes[i];
+        if (/(^|\s)CodeMirror-ruler($|\s)/.test(node.className))
+          node.parentNode.removeChild(node);
       }
+    }
 
-      selected_cell = IPython.notebook.get_selected_cell();
-        if ((selected_cell instanceof IPython.CodeCell)) {
-            var cm = selected_cell.code_mirror;
-            clearRulers(cm);
-        }
+    selected_cell = IPython.notebook.get_selected_cell();
+      if ((selected_cell instanceof IPython.CodeCell)) {
+          var cm = selected_cell.code_mirror;
+          clearRulers(cm);
+      }
 
 });
 
