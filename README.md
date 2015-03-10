@@ -15,4 +15,4 @@ You will overwrite two existing place-holding files with same names.<br><br>
 ## Custom settings
 * To change column at which ruler is displayed, change variable `column_number` in file **custom.js**.
 * To style ruler, change values of `.CodeMirror-ruler` CSS class in file **custom.css**.
-![alt txt](https://github.com/HyperionAnalytics/JupyterNotebook_ruler/blob/master/Jupyter_ruler "Jupyter ruler")
+![alt txt](https://github.com/HyperionAnalytics/JupyterNotebook_ruler/blob/master/Jupyter_ruler "Ruler")
