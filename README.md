@@ -1,6 +1,6 @@
 # Add Ruler to Code Cells of Jupyter and IPython Notebook
 
-Jupyter and IPython notebook setting enabling ruler in code cells using custom.js and custom.css files. Ruler will appear when user click-select code cell to edit it and disappear when user goes into command mode.<br>
+Jupyter and IPython notebook setting enabling ruler in code cells using custom.js and custom.css files. Ruler will appear when user click-selects code cell to edit it and disappear when user goes into command mode.<br>
 
 ## Installation
 These installation instructions are for "vanilla" Jupyter and IPython notebook setup. If you have themed and customized your setup, I will assume you know how to patch this into custom.css and custom.js files.
